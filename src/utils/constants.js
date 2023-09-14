@@ -1,3 +1,11 @@
+const TITLE = 'Расчет корректировки на местоположение';
+
+const SUBTITLE = 'при определении стоимости недвижимости в Центрально-Черноземном регионе';
+
+const FiltersTitle = 'Определение значения коэффициента ценности';
+
+const BreadcrumbsTitle = 'Параметры для поправки на местоположение:';
+
 const CORRECTIONTYPES = [
     {value: 'Скидка на торг (%)', 'isOn': true}, 
     {value: 'Общая площадь (коэффициент торможения)', 'isOn': true},
@@ -41,6 +49,10 @@ const REGIONSELECTED = 'Воронежская';
 const CORRECTIONSELECTED = 'Общая площадь (коэффициент торможения)';
 
 export {
+    TITLE,
+    SUBTITLE,
+    FiltersTitle,
+    BreadcrumbsTitle,
     CORRECTIONTYPES,
     YEARS_BREAK,
     REGIONS,
@@ -48,5 +60,4 @@ export {
     YEARSELECTED,
     REGIONSELECTED,
     CORRECTIONSELECTED,
-
 };

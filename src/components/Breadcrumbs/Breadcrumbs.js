@@ -1,16 +1,17 @@
-export default function Breadcrumbs({year, region, realtyType, purpose, intervalType, minMaxMid } ) {
+// realtyType, 
+export default function Breadcrumbs({ ...props } ) {
     return (
         <>
             <h3 className="breadcr__title">
-                Выбраны параметры коэффициента торможения:
+                {`${props.title}`}
             </h3>
             <div className="breadcr__container">
-                <p className="breadcr__text">{`${year} >`}</p>
-                <p className="breadcr__text">{`${region} >`}</p>
-                <p className="breadcr__text">{`${realtyType} >`}</p>
-                <p className="breadcr__text">{`${purpose} >`}</p>
-                <p className="breadcr__text">{`${intervalType} >`}</p>
-                <p className="breadcr__text">{`${minMaxMid}`}</p>
+                <p className="breadcr__text">{`${props.year} >`}</p>
+                <p className="breadcr__text">{`${props.region} >`}</p>
+                {/* <p className="breadcr__text">{`${realtyType} >`}</p> */}
+                <p className="breadcr__text">{`${props.purpose} >`}</p>
+                <p className="breadcr__text">{`${props.intervalType} >`}</p>
+                <p className="breadcr__text">{`${props.minMaxMid}`}</p>
             </div>
         </>
     );

@@ -98,7 +98,7 @@ export default function Calc({ calculatedRatio, isSend }) {
             className="calc__container_input"
             type="number"
             onChange={handleNumerator}
-            placeholder="Площадь объекта оценки"
+            placeholder="объект оценки, коэфф."
           />
         </div>
         <div className="container_item">
@@ -107,7 +107,7 @@ export default function Calc({ calculatedRatio, isSend }) {
             className="calc__container_input"
             type="number"
             onChange={handleDenumenator}
-            placeholder="Площадь аналога"
+            placeholder="аналог, коэфф."
           />
         </div>
         <div className="container_item">
@@ -116,21 +116,19 @@ export default function Calc({ calculatedRatio, isSend }) {
         <div className="container_item">
           <div className="container_degree">
             {/* <p className="degree_minus">-</p> */}
-            <input
+            <p name="degr" className="calc__container_degree" type="number">-1</p>
+            {/* <input
               name="degr"
               className="calc__container_input calc__container_input_degree"
               type="number"
               value={degree}
               onChange={handleDegree}
               placeholder="Коэфф. торможения"
-            />
-          </div>
-          <div></div>
+            /> */}
+          </div>          
         </div>
         <div className="container_item">
-          <p className="container_degree-comment container_text">
-            Коэффициент торможения
-          </p>
+          {/* <p className="container_degree-comment container_text" />           */}
         </div>
         <div className="container_item">
           <p className="container_text">=</p>
