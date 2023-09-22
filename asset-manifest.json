@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b25864e0.css",
+    "main.js": "/static/js/main.4a610756.js",
+    "static/js/651.8f9cee69.chunk.js": "/static/js/651.8f9cee69.chunk.js",
+    "static/media/map1900rgb.png": "/static/media/map1900rgb.7685da34b5ab6d8fdf70.png",
+    "static/media/map1.png": "/static/media/map1.5303115f04a71900303c.png",
+    "static/media/logoInvestocenka3.svg": "/static/media/logoInvestocenka3.12269f54e8f872ab0e22cdd5eac9d7d8.svg",
+    "static/media/montserrat-bold.woff": "/static/media/montserrat-bold.05eda27dcdadfda355f6.woff",
+    "static/media/montserrat-regular.woff": "/static/media/montserrat-regular.e01d048caf7e291dbc7a.woff",
+    "static/media/montserrat-light.woff": "/static/media/montserrat-light.c05106664a3882dc45e8.woff",
+    "static/media/montserrat-regular.woff2": "/static/media/montserrat-regular.06bb8016397fac883e13.woff2",
+    "static/media/montserrat-bold.woff2": "/static/media/montserrat-bold.d5dcfbf5990fe993c7c0.woff2",
+    "static/media/montserrat-light.woff2": "/static/media/montserrat-light.321a2ac93846daf8e951.woff2",
+    "static/media/experts_sovet_logo.svg": "/static/media/experts_sovet_logo.7ea0e5faebb78d34f14ef1736eb7ea30.svg",
+    "static/media/investOcenkaAnalitycCenter.svg": "/static/media/investOcenkaAnalitycCenter.8f9cc7168bab644dd62f5678f3ac1f99.svg",
+    "static/media/union_finans_sud_expert_logo.png": "/static/media/union_finans_sud_expert_logo.ddf5bcec663169f5f313.png",
+    "static/media/union_appraisers_logo.svg": "/static/media/union_appraisers_logo.67a2394a25184427c53b71d30326e1d4.svg",
+    "static/media/union_rielters_logo.svg": "/static/media/union_rielters_logo.5993666a05d5315e855299449363c14e.svg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.58aaf1081fb73be79fc3.svg",
+    "main.b25864e0.css.map": "/static/css/main.b25864e0.css.map",
+    "main.4a610756.js.map": "/static/js/main.4a610756.js.map",
+    "651.8f9cee69.chunk.js.map": "/static/js/651.8f9cee69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b25864e0.css",
+    "static/js/main.4a610756.js"
+  ]
+}
